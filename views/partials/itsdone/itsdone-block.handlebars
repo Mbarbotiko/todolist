@@ -1,0 +1,9 @@
+<li>
+	{{name}}
+
+	<button class="change-completed" data-id="{{id}}" data-newDone="{{complete}}">
+		{{#if complete}}Its Done!{{else}}Not Done{{/if}}
+	</button>
+
+	<button class="delete-todo" data-id="{{this.id}}">DELETE!</button>
+</li>
